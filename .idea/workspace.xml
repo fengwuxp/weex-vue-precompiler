@@ -1,27 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="201c901d-e393-463d-8c67-02cb3d8437b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/old_src/components/a.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/cell.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/div.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/image.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/recycle-list.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/components/text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/events.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/none-standard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/style-binding.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/style.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/hooks/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/identifier.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/util/ast.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/old_src/util/index.js" afterDir="false" />
+    <list default="true" id="201c901d-e393-463d-8c67-02cb3d8437b9" name="Default Changelist" comment="增加 处理 &lt;text value='12'&gt;&lt;/text&gt; 或 &lt;text :value='12'/&gt;&lt;/text&gt;">
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/text.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/text.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +25,7 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -52,13 +33,27 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/old_src/components/text.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="30" selection-start-line="30" selection-end-line="76" selection-end-column="2" />
+            <state relative-caret-position="170">
+              <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="35" column="5" selection-start-line="35" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node_</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,11 +86,6 @@
               <item name="weex-vue-precompiler" type="b2602c69:ProjectViewProjectNode" />
               <item name="weex-vue-precompiler" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="weex-vue-precompiler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weex-vue-precompiler" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -106,7 +96,7 @@
     <property name="GO_FMT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544529237179" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544529294907" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -158,12 +148,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544528927817</updated>
-      <workItem from="1544528929228" duration="109000" />
+      <workItem from="1544528929228" duration="373000" />
     </task>
+    <task id="LOCAL-00001" summary="增加 处理 &lt;text value='12'&gt;&lt;/text&gt; 或 &lt;text :value='12'/&gt;&lt;/text&gt;">
+      <created>1544529219984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544529219984</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109000" />
+    <option name="totallyTimeSpent" value="373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
@@ -174,17 +172,17 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Designer" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32880846" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32880846" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -207,16 +205,13 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="增加 处理 &lt;text value='12'&gt;&lt;/text&gt; 或 &lt;text :value='12'/&gt;&lt;/text&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加 处理 &lt;text value='12'&gt;&lt;/text&gt; 或 &lt;text :value='12'/&gt;&lt;/text&gt;" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/old_src/util/ast.js">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old_src/components/text.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="30" selection-start-line="30" selection-end-line="76" selection-end-column="2" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/text.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -225,10 +220,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/old_src/components/text.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="45" column="62" lean-forward="true" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="35" column="5" selection-start-line="35" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
