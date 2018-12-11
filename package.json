@@ -1,10 +1,14 @@
 {
   "name": "weex-vue-precompiler",
-  "version": "0.1.24",
+  "version": "0.1.23.bate",
   "description": "a precompiler for weex-vue-render.",
   "main": "src/index.js",
+  "publishConfig": {
+    "registry": "http://nexus.oaknt.com:18081/repository/oak_npm_hosted/"
+  },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "npm_publish": "npm publish"
   },
   "keywords": [
     "weex",
